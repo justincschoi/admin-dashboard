@@ -51,6 +51,10 @@
     background-color: #e2e8f0;
 }
 
+.search-input:focus {
+    outline: none;
+}
+
 .main {
     display: grid;
     grid-template-columns: 3fr 1fr;
