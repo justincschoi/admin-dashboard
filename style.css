@@ -6,7 +6,7 @@
 .container {
     display: grid;
     grid-template-columns: 1fr 5fr;
-    grid-template-rows: 1fr 5fr;
+    grid-template-rows: 1fr 6fr;
 }
 
 .sidebar {
@@ -58,7 +58,29 @@ img {
     grid-column: 2/3;
     grid-row: 1/2;
     align-items: center;
-    padding: 10px;
+    padding: 20px 50px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-btn {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.btn {
+    background-color: #1992d4;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 15px 30px;
+    width: 100px;
+    font-weight: bold;
 }
 
 .search-input {
