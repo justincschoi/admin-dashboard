@@ -23,7 +23,12 @@
 }
 
 .dashboard>p {
-    font-size: 30px;
+    font-size: 28px;
+}
+
+img {
+    height: 20px;
+    width: auto;
 }
 
 .user-menu>li,
