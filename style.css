@@ -62,6 +62,31 @@ img {
     padding: 20px 50px;
 }
 
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.profile-pic {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.welcome-pic {
+    height: 88px;
+    width: 88px;
+    border-radius: 50%;
+}
+
+.welcome {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
 .search {
     display: flex;
     align-items: center;
