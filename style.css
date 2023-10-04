@@ -130,6 +130,11 @@ h4 {
     border-radius: 12px;
 }
 
+.title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
 .announcements {
     display: grid;
     grid-template-rows: auto 1fr;
