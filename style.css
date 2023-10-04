@@ -121,9 +121,12 @@ h4 {
 }
 
 .cards-container .card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     background-color: #FFFFFF;
     color: black;
-    padding: 15px;
+    padding: 20px;
     border-radius: 12px;
 }
 
