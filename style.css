@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -97,12 +98,12 @@ img {
 
 .main {
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 4fr 1fr;
     background-color: #e2e8f0;
 }
 
 h4 {
-    padding: 10px 20px;
+    margin: 20px;
 }
 
 .projects {
@@ -113,8 +114,8 @@ h4 {
 
 .cards-container {
     display: grid;
-    padding: 10px 20px;
-    gap: 25px;
+    margin: 0px 20px;
+    gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
@@ -122,7 +123,6 @@ h4 {
     background-color: #FFFFFF;
     color: black;
     padding: 15px;
-    height: 250px;
     border-radius: 12px;
 }
 
@@ -132,7 +132,7 @@ h4 {
 }
 
 .section-container {
-    padding: 10px;
+    margin: 0 20px;
 }
 
 .border-radius-top {
@@ -154,7 +154,7 @@ h4 {
 }
 
 .trending-container {
-    padding: 10px;
+    margin: 0 20px;
 }
 
 .trending-container .trending-user {
