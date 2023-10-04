@@ -31,23 +31,23 @@
 .user-setting li {
     display: flex;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     gap: 20px;
 }
 
 
 .dashboard>p {
-    font-size: 28px;
+    font-size: 35px;
 }
 
 img {
-    height: 20px;
+    height: 25px;
     width: auto;
 }
 
 .user-menu>li,
 .user-setting>li {
-    font-size: 20px;
+    font-size: 25px;
     list-style-type: none;
 }
 
